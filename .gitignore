@@ -1,0 +1,8 @@
+.env
+*.csv
+*.rar
+*.txt
+.venv/
+2023/
+2024_new/
+.idea/
