@@ -26,9 +26,10 @@ class WorkForData:
         self.product = self.__take_data_for_DB(['id_product_code', 'id_product'], 'spr_product')
         print('Получили данные с пробуктов! К-к-арамба!')
         # Путь до папки с нашими файлами
-        self.path_to_directory = '2024_new'
+        self.path_to_directory = 'T:\Для Береговских\Виталя выгрузка\тест'
         # Путь до старого формата
-        self.path_to_directory_old = '2023'
+        #self.path_to_directory_old = '2023'
+        self.path_to_directory_old = 'T:\Для Береговских\Выгрузка для Витали оборачиваемость'
 
     def first_start(self):
         print('Start!')
